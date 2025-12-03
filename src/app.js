@@ -13,7 +13,7 @@ if (typeof document !== 'undefined') {
     li.textContent = texto;
     lista.appendChild(li);
   }
-  
+
     const boton = document.getElementById('agregarBtn');
   if (boton) {
     boton.addEventListener('click', () => {
@@ -30,5 +30,5 @@ if (typeof document !== 'undefined') {
 }
 
 if (typeof module !== 'undefined') {
-  module.exports = suma;
+  module.exports = { suma };
 }
