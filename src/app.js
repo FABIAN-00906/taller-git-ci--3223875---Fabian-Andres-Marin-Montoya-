@@ -2,7 +2,7 @@ function suma(a, b) {
   return a + b;
 }
 
-console.log("App lista");
+console.log('App lista');
 
 if (typeof document !== 'undefined') {
   function agregarItem(texto) {
@@ -14,7 +14,7 @@ if (typeof document !== 'undefined') {
     lista.appendChild(li);
   }
 
-    const boton = document.getElementById('agregarBtn');
+  const boton = document.getElementById('agregarBtn');
   if (boton) {
     boton.addEventListener('click', () => {
       const input = document.getElementById('texto');
